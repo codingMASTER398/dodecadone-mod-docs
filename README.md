@@ -17,6 +17,9 @@ You may also be contacted by me, coding398, about including your gamemode in an 
 ### How it works
 A mod file loads a single object, the mod constant.
 ```js
+// Example mod
+// Your Name
+
 const mod = {
 
 }
