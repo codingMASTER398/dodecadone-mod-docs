@@ -242,3 +242,8 @@ e.g. `shape.scale = 2`
 - `aliveFor` is how many frames the shape has been alive for
 
 Also, all other shape attributes p5play provides like color, position, rotation and everything are all apart of the shape.
+
+### Extra notes
+- LocalStorage in mods is temporary. Access it with `LCL.getItem()`.
+- The default mod here does not use that rule, so it breaks when under mod conditions.
+- To get the SFX volume, use `Number(LCL.getItem("settingSFXVolume"))`
